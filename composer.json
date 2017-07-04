@@ -1,0 +1,28 @@
+{
+    "name": "prasad-paranjape/ola_oauth_php",
+    "description": "PHP sdk for ola cabs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prasad Paranjape",
+            "email": "1989.prasad@gmail.com",
+            "homepage": "https://github.com/prasad-paranjape"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authorisation",
+        "ola"
+    ],
+    "require": {
+        "league/oauth2-client": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pp\\Ola\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
